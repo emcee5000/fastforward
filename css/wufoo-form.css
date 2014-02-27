@@ -6,3 +6,12 @@
 ul {
 	text-align: center;
 }
+.field .textarea .small{
+max-width: 600px;
+}
+input.small, select.small{
+    text-align: center;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file{
+    text-align: center;
+}
