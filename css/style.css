@@ -1,0 +1,103 @@
+/* CSS Document */
+
+/*fonts*/
+@import url(http://fonts.googleapis.com/css?family=Economica:400,700);
+/*Elements
+*/
+p {
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.white-back {
+ #color:#7F786B;
+}
+ol li {
+	font-size: 1.5em;
+}
+.billboard-whiteback {
+	display: block;
+	text-align: center;
+	color: #54524A;
+	font-family: 'Economica', sans-serif;
+	font-size: 5em;
+}
+.billboard-greyback {
+	display: block;
+	text-align: center;
+	color: #f1edde;
+	font-family: 'Economica', sans-serif;
+	font-size: 5em;
+}
+.greyback {
+	color: #f1edde;
+}
+header {
+	background-color: #f1edde;
+	height: 75px;
+	padding: 20px;
+}
+#billboard {
+	background-color: #ff6633;
+	height: auto;
+	padding: 20px;
+	text-align: center;
+	background-image: url(../images/back-halloflang.jpg);
+	background-position: 50% 50%;  /* Sets reference point to scale from */
+	background-size: cover;        /* Sets background image to cover entire element */
+}
+#billboard .title {
+	color: #f1edde;
+	font-size: 8em;
+	padding-top: 30px;
+	font-family: 'Economica', sans-serif;
+}
+#billboard .description {
+	color: #f1edde;
+}
+footer {
+	background-color: #333333;
+	color: #fff;
+	font-size:.85em;
+	padding: 20px;
+}
+footer .footer-info{
+	width:inherit;
+	float:left;
+}
+footer .logo{
+	padding-bottom: 10px;
+}
+footer .social
+{
+	width:inherit;
+	float:right;
+}
+#rules {
+	padding: 20px;
+	background-color:#f1edde;
+/*	background-image: url(../images/back-students.jpg);
+	background-position: 50% 50%;  /* Sets reference point to scale from */
+	background-size: cover;        /* Sets background image to cover entire element */*/
+}
+#enter {
+	padding: 20px;
+	background-color: #7F786B;
+}
+.vid{
+	margin:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
