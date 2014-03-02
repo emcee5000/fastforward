@@ -33,6 +33,9 @@ h2 {
 ol li {
 	font-size: 1.5em;
 }
+.important {
+	color: #f15f22;
+}
 .header-whiteback {
 	display: block;
 	text-align: center;
@@ -110,17 +113,25 @@ footer .social {
 .vid {
 	margin: 40px;
 }
-.number {
-	display: inline-block;
-	color: #f1edde;
-	font-size: 1.3em;
-	background-color: #ff6633;
-	border: solid, thin, #54524A;
-	padding: 5px 5px 5px 7px;
-	margin: 5px;
-}
 #enter p {
 	text-align: center;
+}
+#social-share {
+	background-color: rgba(0,0,0,0.3);
+	width: 50%;
+	margin: 0 auto 0 auto;
+	padding: 5px;
+}
+#social-share h3 {
+	color: #FFF;
+	font-family: 'franklin_gothic_fsdemi', sans-serif;
+	color: #f1edde;
+	text-transform: uppercase;
+}
+div.addthis_toolbox {
+	width: 150px;
+	margin: 0 auto;
+	padding-bottom: 20px;
 }
 
 /*ol {
@@ -179,4 +190,8 @@ ol li {
 .header-whiteback {
 	font-size: 2em;
 }
+#rules {
+	padding: 5px;
 }
+#enter {
+	padding: 5px;
