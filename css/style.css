@@ -118,6 +118,7 @@ footer .social {
 #social-share {
 	background-color: rgba(0,0,0,0.3);
 	width: 50%;
+    min-width: 200px;
 	margin: 0 auto 0 auto;
 	padding: 5px;
 }
@@ -133,10 +134,6 @@ div.addthis_toolbox {
 	padding-bottom: 20px;
 }
 
-/*ol {
-    color: #f1edde;
-}*/
-
 /*iPad Styles*/
 @media (max-width: 980px) {
 #billboard .title {
@@ -147,7 +144,7 @@ div.addthis_toolbox {
 	text-transform: uppercase;/*font-family: 'Economica', sans-serif;*/
 }
 #sulogo-top {
-	width: 85%;
+	width: 50%;
 	height: auto;
 }
 }
@@ -170,6 +167,9 @@ header {
 	padding-top: 10px;
 	font-family: 'franklin_gothic_fsdemi', sans-serif;
 	text-transform: uppercase;/*font-family: 'Economica', sans-serif;*/
+}
+#social-share h3 {
+	font-size: 1.5em;
 }
 p {
 	font-size: 1em;
