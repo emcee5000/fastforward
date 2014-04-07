@@ -55,10 +55,20 @@ ol li {
 	color: #f1edde;
 }
 header {
-	background-color: #f1edde;
-	height: 75px;
+	background-color: #54524A;
+	height: inherit;
 	padding: 20px;
+    text-align: center;
+    
 }
+#billboard-header {
+	height: auto;
+	padding: 20px;
+	text-align: center;
+	background-position: 50% 50%; /* Sets reference point to scale from */
+	background-size: cover; /* Sets background image to cover entire element */
+}
+
 #billboard {
 	background-color: #ff6633;
 	height: auto;
@@ -69,6 +79,13 @@ header {
 	background-size: cover; /* Sets background image to cover entire element */
 }
 #billboard .title {
+	color: #f1edde;
+	font-size: 8em;
+	padding-top: 30px;
+	font-family: 'franklin_gothic_fsdemi', sans-serif;
+	text-transform: uppercase;/*font-family: 'Economica', sans-serif;*/
+}
+#billboard-header .title {
 	color: #f1edde;
 	font-size: 8em;
 	padding-top: 30px;
