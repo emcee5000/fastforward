@@ -84,7 +84,7 @@ hr {
 
 #billboard-header {
     height: auto;
-    padding: 20px;
+    
     text-align: center;
     background-position: 50% 50%; /* Sets reference point to scale from */
     background-size: cover; /* Sets background image to cover entire element */
