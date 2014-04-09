@@ -73,9 +73,13 @@ header {
     text-align: center;
 }
 
-hr {
+header hr {
     border-top: 1px dotted #fff;
     /*Rest of stuff here*/
+}
+
+hr {
+    border-top: 1px dotted #000;
 }
 
 #billboard-header {
