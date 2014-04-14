@@ -162,6 +162,15 @@ footer .social {
     margin: 40px;
 }
 
+#vid {
+    margin-bottom: 10px;
+}
+
+.videocontent {
+    max-width:800px;margin:0 auto;
+    
+}
+
 #enter p {
     text-align: center;
 }
