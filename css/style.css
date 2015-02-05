@@ -14,8 +14,13 @@ p {
 	font-size: 1.5em;
 	margin-bottom: 20px;
 }
-a{
-    color: ##f1edde; !important
+a:active {
+    color: ##f1edde !important; 
+    text-decoration: underline;
+}
+
+a:visited {
+    color: ##f1edde !important; 
     text-decoration: underline;
 }
 
@@ -25,8 +30,15 @@ h1 {
 h2 {
 	font-size: 2em;
 }
+h3 {
+    font-size: 1.8em;
+}
 .description {
 	font-size: 1.8em;
+}
+.description-xlarge {
+	font-size: 2.8em;
+	color: #f1edde;
 }
 .description-large {
 	font-size: 2.5em;
