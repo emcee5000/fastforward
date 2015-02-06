@@ -37,8 +37,12 @@ h3 {
 	font-size: 1.8em;
 }
 .description-xlarge {
-	font-size: 2.8em;
+	font-size: 4em;
 	color: #f1edde;
+    font-family: 'franklin_gothic_fsdemi', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
 }
 .description-large {
 	font-size: 2.5em;
@@ -91,6 +95,7 @@ header {
 	padding-top: 30px;
 	font-family: 'franklin_gothic_fsdemi', sans-serif;
 	text-transform: uppercase;/*font-family: 'Economica', sans-serif;*/
+    margin-bottom: 0;
 }
 #billboard .description {
 	color: #f1edde;
